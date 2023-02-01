@@ -3,7 +3,10 @@ import datetime
 class lis:
 	
 	def __init__(self):
-		now = datetime.datetime.now().replace(microsecond=0)
-		print(now)
+		now = 0
 
-print(lis().__init__)
+	def output(self):
+		now = datetime.datetime.now().replace(microsecond=0)
+		return now
+
+print(lis().output())
